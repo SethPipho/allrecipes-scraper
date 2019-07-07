@@ -20,9 +20,6 @@ while True:
     r = fetch(url)
     if r.status_code == 404:
         break
-    if page == 5:
-        break
-    
     print("Page:", page)
     page += 1
     
@@ -30,17 +27,12 @@ while True:
 
     for listing in recipelisting:
         r = fetch(listing.link)
-        
         parsed = recipe.parse_recipe(r.text)
         parsed_dict = parsed._asdict()
-
         parsed_dict["imgsrc"] = listing.imgsrc
-
         recipes.append(parsed_dict)
         
-   
-
 print("Done!")
 print("Found",len(recipes), "recipes")
-with open("data/recipes.json", "w", encoding="utf-8") as f:
+with open("data/recipes-raw.json", "w", encoding="utf-8") as f:
     json.dump(recipes, f, ensure_ascii=False, indent=5)
