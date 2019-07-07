@@ -6,7 +6,6 @@ RecipeLink = namedtuple('RecipeLink', ['title', 'link', 'imgsrc'])
 def parse_recipelisting(page:str):
     ''' parses allrecipes recipe list e.g https://www.allrecipes.com/recipes/?page=5 '''
 
-    print(html)
 
     root = html.fromstring(page)
     cards = root.xpath('//article[@class="fixed-recipe-card"]')

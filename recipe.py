@@ -18,9 +18,4 @@ def parse_recipe(page:str):
     rating = root.xpath('.//meta[@itemprop="ratingValue"]')[0].attrib.get("content")
     numreviews = root.xpath('.//meta[@itemprop="reviewCount"]')[0].attrib.get("content")
 
-        #<meta property="og:rating" content="4.76843404769897" />
-        #<meta itemprop="ratingValue" content="4.77">
-        #<meta itemprop="reviewCount" content="2786">
-
-
     return Recipe(title=title, url=url, rating=rating, numreviews=numreviews, ingredients=ingredients, instructions=instructions)
