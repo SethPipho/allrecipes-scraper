@@ -3,11 +3,11 @@ import recipe
 
 class TestRecipeParse(unittest.TestCase):
 
-    def test_parse_recipe_new(self):
+    def test_parse_recipe_format_1(self):
 
         self.maxDiff = None
 
-        testfile = open("testfiles/recipenew.html", encoding="utf-8")
+        testfile = open("testfiles/format1_1.html", encoding="utf-8")
         parsed_recipe = recipe.parse_recipe(testfile.read())
         testfile.close()
 
@@ -43,11 +43,7 @@ class TestRecipeParse(unittest.TestCase):
         self.assertEqual(parsed_recipe.rating, recipe1.rating)
         self.assertEqual(parsed_recipe.numreviews, recipe1.numreviews)
 
-    def test_parse_recipe_old(self):
-
-        self.maxDiff = None
-
-        testfile = open("testfiles/recipeold.html", encoding="utf-8")
+        testfile = open("testfiles/format1_2.html", encoding="utf-8")
         parsed_recipe = recipe.parse_recipe(testfile.read())
         testfile.close()
 
@@ -76,8 +72,45 @@ class TestRecipeParse(unittest.TestCase):
                 'Bake the loaves in the preheated oven until a toothpick inserted into the center comes out clean, about 1 hour for loaves or 25 minutes for muffins. Cool in the pans for 10 minutes before removing to cool completely on a wire rack.')
         )
 
-    
+        self.assertEqual(parsed_recipe.title, recipe1.title)
+        self.assertEqual(parsed_recipe.url, recipe1.url)
+        self.assertEqual(parsed_recipe.ingredients, recipe1.ingredients)
+        self.assertEqual(parsed_recipe.instructions, recipe1.instructions)
+        self.assertEqual(parsed_recipe.rating, recipe1.rating)
+        self.assertEqual(parsed_recipe.numreviews, recipe1.numreviews)
 
+    def test_parse_recipe_format2(self):
+
+        self.maxDiff = None
+
+        testfile = open("testfiles/format2_1.html", encoding="utf-8")
+        parsed_recipe = recipe.parse_recipe(testfile.read())
+        testfile.close()
+
+        recipe1 = recipe.Recipe(
+            title= "Broccoli Cheese Soup",
+            url= "https://www.allrecipes.com/recipe/13045/broccoli-cheese-soup/",
+            rating="4.61602209944751",
+            numreviews="2896",
+            ingredients=[
+                "½ cup butter",
+                "1 onion, chopped",
+                "1 (16 ounce) package frozen chopped broccoli",
+                "4 (14.5 ounce) cans chicken broth",
+                "1 (1 pound) loaf processed cheese food, cubed",
+                "2 cups milk",
+                "1 tablespoon garlic powder",
+                "⅔ cup cornstarch",
+                "1 cup water"
+            ],
+            instructions = 
+                ('In a stockpot, melt butter over medium heat. Cook onion in butter until softened. Stir in broccoli, and cover with chicken broth. Simmer until broccoli is tender, 10 to 15 minutes.\n'
+                'Reduce heat, and stir in cheese cubes until melted. Mix in milk and garlic powder.\n'
+                'In a small bowl, stir cornstarch into water until dissolved. Stir into soup; cook, stirring frequently, until thick.'
+            ))
+
+        print("-----------------------------------")
+        print(recipe1.instructions)
 
         self.assertEqual(parsed_recipe.title, recipe1.title)
         self.assertEqual(parsed_recipe.url, recipe1.url)
@@ -85,6 +118,8 @@ class TestRecipeParse(unittest.TestCase):
         self.assertEqual(parsed_recipe.instructions, recipe1.instructions)
         self.assertEqual(parsed_recipe.rating, recipe1.rating)
         self.assertEqual(parsed_recipe.numreviews, recipe1.numreviews)
+
+        
 
 
 

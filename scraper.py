@@ -11,7 +11,7 @@ def fetch(url):
     return requests.get(url)
 
 RECIPE_LIST_URL = "https://www.allrecipes.com/recipes/?page={page}"
-page = 0
+page = 9
 count = 0
 
 OUTPUT_PATH = "data/recipes-raw.jsonl"
