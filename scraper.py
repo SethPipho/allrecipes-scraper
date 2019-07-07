@@ -12,8 +12,10 @@ def fetch(url):
 
 RECIPE_LIST_URL = "https://www.allrecipes.com/recipes/?page={page}"
 page = 0
+count = 0
 
-recipes = []
+OUTPUT_PATH = "data/recipes-raw.jsonl"
+output_file = open(OUTPUT_PATH, "w", encoding="utf-8")
 
 while True:
     url = RECIPE_LIST_URL.format(page=str(page))
@@ -26,13 +28,18 @@ while True:
     recipelisting = recipelist.parse_recipelisting(r.text)
 
     for listing in recipelisting:
+        count += 1
         r = fetch(listing.link)
         parsed = recipe.parse_recipe(r.text)
         parsed_dict = parsed._asdict()
         parsed_dict["imgsrc"] = listing.imgsrc
-        recipes.append(parsed_dict)
+
+        json_output = json.dumps(parsed_dict, ensure_ascii=False)
+        output_file.write(json_output + "\n")
+        output_file.flush()
+       
+    
         
 print("Done!")
-print("Found",len(recipes), "recipes")
-with open("data/recipes-raw.json", "w", encoding="utf-8") as f:
-    json.dump(recipes, f, ensure_ascii=False, indent=5)
+print("Found", count, "recipes")
+output_file.close()
