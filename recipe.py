@@ -12,7 +12,10 @@ def parse_recipe(page:str):
     except:
       pass
     
-    return parse_format2(page)
+    try:
+      return parse_format2(page)
+    except:
+      return None
    
 
   

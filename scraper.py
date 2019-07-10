@@ -30,9 +30,12 @@ while True:
     for listing in recipelisting:
         count += 1
         r = fetch(listing.link)
+        if r.status_code != 200:
+            print("fetch error:", listing.link)
+            continue
         parsed = recipe.parse_recipe(r.text)
         if parsed is None:
-            print("Failed to parse:", listing.link)
+            print("parse error:", listing.link)
             continue
         parsed_dict = parsed._asdict()
         parsed_dict["imgsrc"] = listing.imgsrc

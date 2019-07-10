@@ -128,7 +128,22 @@ class TestRecipeParse(unittest.TestCase):
         
         self.assertEqual(parsed_recipe.rating, "0")
     
-  
+    #test list of urls that failed during initial bulk scraping
+    """  def test_errors(self):
+        with open('data/errors.txt') as f:
+            for row in f:
+                url = row.strip()
+                r = requests.get(url)
+                print(url)
+                if (r.status_code != 200):
+                    print('fetch error:', url)
+                    continue
+                parsed = recipe.parse_recipe(r.text)
+                if parsed == None:
+                    print('parse error:', url) """
+              
+
+                
              
         
 
