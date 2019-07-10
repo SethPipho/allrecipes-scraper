@@ -6,12 +6,14 @@ Recipe = namedtuple("Recipe", ['title','url', 'rating', 'numreviews', 'ingredien
 
 def parse_recipe(page:str):
     ''' parses recipe from allrecipes e.g. https://www.allrecipes.com/recipe/13477/double-layer-pumpkin-cheesecake/ '''
+    
     try:
       return parse_format1(page)
     except:
       pass
     
     return parse_format2(page)
+   
 
   
 
@@ -43,7 +45,11 @@ def parse_format2(page:str):
   instruction_tags = root.xpath('.//ul[@class="instructions-section"]//div[@class="section-body"]/p')
   steps = [x.text.strip() for x in instruction_tags if len(x.text) > 0]
   instructions = "\n".join(steps)
-  rating = root.xpath('.//meta[@name="og:rating"]')[0].attrib.get("content")
+  rating_tag = root.xpath('.//meta[@name="og:rating"]')
+  if len(rating_tag) == 0:
+    rating = '0'
+  else:
+    rating = rating_tag[0].attrib.get("content")
   numreviews = root.xpath('.//div[@class="component recipe-reviews container-full-width template-two-col with-sidebar-right hidden"]')[0].attrib.get("data-ratings-count")
 
   

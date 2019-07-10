@@ -1,5 +1,6 @@
 import unittest
 import recipe
+import requests
 
 class TestRecipeParse(unittest.TestCase):
 
@@ -109,16 +110,26 @@ class TestRecipeParse(unittest.TestCase):
                 'In a small bowl, stir cornstarch into water until dissolved. Stir into soup; cook, stirring frequently, until thick.'
             ))
 
-        print("-----------------------------------")
-        print(recipe1.instructions)
-
         self.assertEqual(parsed_recipe.title, recipe1.title)
         self.assertEqual(parsed_recipe.url, recipe1.url)
         self.assertEqual(parsed_recipe.ingredients, recipe1.ingredients)
         self.assertEqual(parsed_recipe.instructions, recipe1.instructions)
         self.assertEqual(parsed_recipe.rating, recipe1.rating)
-        self.assertEqual(parsed_recipe.numreviews, recipe1.numreviews)
+        self.assertEqual(parsed_recipe.numreviews, recipe1.numreviews) 
 
+     #recipe without ratings or reviews broke format 2
+    def test_parse_recipe_format_2_unrated(self):
+
+        self.maxDiff = None
+
+        testfile = open("testfiles/format2_unrated.html", encoding="utf-8")
+        parsed_recipe = recipe.parse_recipe(testfile.read())
+        testfile.close()
+        
+        self.assertEqual(parsed_recipe.rating, "0")
+    
+  
+             
         
 
 
