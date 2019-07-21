@@ -1,0 +1,235 @@
+1 (14 ounce) can reduced-sodium beef broth | {"quantity": 1.0, "unit": {"type": "non_standard", "size": {"quantity": 14.0, "unit": {"type": "standard", "name": "ounce"}}, "name": "can"}, "base_ingredient": "reduced-sodium beef broth"}
+2 tablespoons vegetable oil | {"quantity": 2.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "vegetable oil"}
+1 pound thinly sliced deli roast beef | {"quantity": 1.0, "unit": {"type": "standard", "name": "pound"}, "base_ingredient": "thinly sliced deli roast beef"}
+2 cups chopped fresh strawberries | {"quantity": 2.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "chopped fresh strawberries"}
+2 cups chopped rhubarb | {"quantity": 2.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "chopped rhubarb"}
+1/3 cup brown sugar | {"quantity": 0.3333333333333333, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "brown sugar"}
+1/8 teaspoon salt | {"quantity": 0.125, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "salt"}
+cooking spray | {"base_ingredient": "cooking spray"}
+1/2 cup all-purpose flour | {"quantity": 0.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "all-purpose flour"}
+1/4 cup brown sugar | {"quantity": 0.25, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "brown sugar"}
+1/2 teaspoon ground cinnamon | {"quantity": 0.5, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "ground cinnamon"}
+1/4 teaspoon salt | {"quantity": 0.25, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "salt"}
+2 cups all-purpose flour | {"quantity": 2.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "all-purpose flour"}
+3 teaspoons baking powder | {"quantity": 3.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "baking powder"}
+1 teaspoon cinnamon | {"quantity": 1.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "cinnamon"}
+1/4 teaspoon salt | {"quantity": 0.25, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "salt"}
+2 large eggs | {"quantity": 2.0, "base_ingredient": "large eggs"}
+1/2 cup granulated sugar | {"quantity": 0.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "granulated sugar"}
+1/2 cup brown sugar | {"quantity": 0.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "brown sugar"}
+1 cup sour cream | {"quantity": 1.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "sour cream"}
+1/2 cup vegetable oil | {"quantity": 0.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "vegetable oil"}
+1 teaspoon vanilla extract | {"quantity": 1.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "vanilla extract"}
+2 cups blueberries | {"quantity": 2.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "blueberries"}
+1 tablespoon all-purpose flour | {"quantity": 1.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "all-purpose flour"}
+2 large eggplants | {"quantity": 2.0, "base_ingredient": "large eggplants"}
+1 (8 ounce) can tomato sauce with no salt added | {"quantity": 1.0, "unit": {"type": "non_standard", "size": {"quantity": 8.0, "unit": {"type": "standard", "name": "ounce"}}, "name": "can"}, "base_ingredient": "tomato sauce with no salt added"}
+1/8 teaspoon salt | {"quantity": 0.125, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "salt"}
+1/8 teaspoon ground black pepper | {"quantity": 0.125, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "ground black pepper"}
+1 1/2 cups milk | {"quantity": 1.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "milk"}
+1 cup all-purpose flour | {"quantity": 1.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "all-purpose flour"}
+2 large eggs | {"quantity": 2.0, "base_ingredient": "large eggs"}
+2 tablespoons chopped fresh cilantro | {"quantity": 2.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "chopped fresh cilantro"}
+1 tablespoon melted butter | {"quantity": 1.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "melted butter"}
+8 large eggs | {"quantity": 8.0, "base_ingredient": "large eggs"}
+1/4 cup milk | {"quantity": 0.25, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "milk"}
+1/2 cup shredded Cheddar cheese | {"quantity": 0.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "shredded Cheddar cheese"}
+salt and freshly ground black pepper to taste | {"base_ingredient": "salt and freshly ground black pepper to taste"}
+1 teaspoon olive oil | {"quantity": 1.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "olive oil"}
+1/3 cup diced onion | {"quantity": 0.3333333333333333, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "diced onion"}
+1/3 cup diced red bell pepper | {"quantity": 0.3333333333333333, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "diced red bell pepper"}
+1/2 cup chopped ham | {"quantity": 0.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "chopped ham"}
+1 1/4 cups whole wheat flour | {"quantity": 1.25, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "whole wheat flour"}
+1 cup all-purpose flour | {"quantity": 1.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "all-purpose flour"}
+1/4 cup white sugar | {"quantity": 0.25, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "white sugar"}
+2 1/2 teaspoons baking powder | {"quantity": 2.5, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "baking powder"}
+1 teaspoon ground cardamom | {"quantity": 1.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "ground cardamom"}
+1 teaspoon lemon zest | {"quantity": 1.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "lemon zest"}
+1/2 teaspoon baking soda | {"quantity": 0.5, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "baking soda"}
+1/2 teaspoon salt | {"quantity": 0.5, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "salt"}
+1/4 teaspoon ground ginger | {"quantity": 0.25, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "ground ginger"}
+1/2 cup whole-milk Greek yogurt | {"quantity": 0.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "whole-milk Greek yogurt"}
+3 tablespoons heavy cream | {"quantity": 3.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "heavy cream"}
+1 egg | {"quantity": 1.0, "base_ingredient": "egg"}
+2 teaspoons vanilla extract | {"quantity": 2.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "vanilla extract"}
+1 egg | {"quantity": 1.0, "base_ingredient": "egg"}
+1 teaspoon water | {"quantity": 1.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "water"}
+1 tablespoon lemon juice | {"quantity": 1.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "lemon juice"}
+1/4 cup olive oil | {"quantity": 0.25, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "olive oil"}
+1 tablespoon minced garlic | {"quantity": 1.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "minced garlic"}
+2 teaspoons lemon juice | {"quantity": 2.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "lemon juice"}
+1/4 teaspoon pepper | {"quantity": 0.25, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "pepper"}
+1 pinch finely chopped parsley | {"quantity": 1.0, "base_ingredient": "pinch finely chopped parsley"}
+metal skewers | {"base_ingredient": "metal skewers"}
+cooking spray | {"base_ingredient": "cooking spray"}
+1/4 cup white sugar | {"quantity": 0.25, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "white sugar"}
+1 tablespoon lemon juice | {"quantity": 1.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "lemon juice"}
+3 cups all-purpose flour | {"quantity": 3.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "all-purpose flour"}
+1 teaspoon baking soda | {"quantity": 1.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "baking soda"}
+1 teaspoon baking powder | {"quantity": 1.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "baking powder"}
+1/2 teaspoon salt | {"quantity": 0.5, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "salt"}
+2 cups white sugar | {"quantity": 2.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "white sugar"}
+1 1/2 tablespoons lemon zest | {"quantity": 1.5, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "lemon zest"}
+1 teaspoon vanilla extract | {"quantity": 1.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "vanilla extract"}
+1/4 cup lemon juice | {"quantity": 0.25, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "lemon juice"}
+1 tablespoon lemon juice | {"quantity": 1.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "lemon juice"}
+1 teaspoon vanilla extract | {"quantity": 1.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "vanilla extract"}
+1 teaspoon lemon zest | {"quantity": 1.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "lemon zest"}
+1/4 teaspoon salt | {"quantity": 0.25, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "salt"}
+4 tablespoons heavy cream | {"quantity": 4.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "heavy cream"}
+1 teaspoon salt | {"quantity": 1.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "salt"}
+2 cups finely grated Pecorino Romano cheese | {"quantity": 2.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "finely grated Pecorino Romano cheese"}
+1 pound sweet Italian sausage | {"quantity": 1.0, "unit": {"type": "standard", "name": "pound"}, "base_ingredient": "sweet Italian sausage"}
+3/4 pound lean ground beef | {"quantity": 0.75, "unit": {"type": "standard", "name": "pound"}, "base_ingredient": "lean ground beef"}
+1/2 cup minced onion | {"quantity": 0.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "minced onion"}
+1 (28 ounce) can crushed tomatoes | {"quantity": 1.0, "unit": {"type": "non_standard", "size": {"quantity": 28.0, "unit": {"type": "standard", "name": "ounce"}}, "name": "can"}, "base_ingredient": "crushed tomatoes"}
+2 (6 ounce) cans tomato paste | {"quantity": 2.0, "unit": {"type": "non_standard", "size": {"quantity": 6.0, "unit": {"type": "standard", "name": "ounce"}}, "name": "can"}, "base_ingredient": "tomato paste"}
+2 (6.5 ounce) cans canned tomato sauce | {"quantity": 2.0, "unit": {"type": "non_standard", "size": {"quantity": 6.5, "unit": {"type": "standard", "name": "ounce"}}, "name": "can"}, "base_ingredient": "canned tomato sauce"}
+1/2 cup water | {"quantity": 0.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "water"}
+2 tablespoons white sugar | {"quantity": 2.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "white sugar"}
+1 1/2 teaspoons dried basil leaves | {"quantity": 1.5, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "dried basil leaves"}
+1/2 teaspoon fennel seeds | {"quantity": 0.5, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "fennel seeds"}
+1 teaspoon Italian seasoning | {"quantity": 1.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "Italian seasoning"}
+1 tablespoon salt | {"quantity": 1.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "salt"}
+1/4 teaspoon ground black pepper | {"quantity": 0.25, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "ground black pepper"}
+4 tablespoons chopped fresh parsley | {"quantity": 4.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "chopped fresh parsley"}
+12 lasagna noodles | {"quantity": 12.0, "base_ingredient": "lasagna noodles"}
+16 ounces ricotta cheese | {"quantity": 16.0, "unit": {"type": "standard", "name": "ounce"}, "base_ingredient": "ricotta cheese"}
+1 egg | {"quantity": 1.0, "base_ingredient": "egg"}
+1/2 teaspoon salt | {"quantity": 0.5, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "salt"}
+3/4 cup grated Parmesan cheese | {"quantity": 0.75, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "grated Parmesan cheese"}
+3/4 cup milk | {"quantity": 0.75, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "milk"}
+2 tablespoons white vinegar | {"quantity": 2.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "white vinegar"}
+1 cup all-purpose flour | {"quantity": 1.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "all-purpose flour"}
+2 tablespoons white sugar | {"quantity": 2.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "white sugar"}
+1 teaspoon baking powder | {"quantity": 1.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "baking powder"}
+1/2 teaspoon baking soda | {"quantity": 0.5, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "baking soda"}
+1/2 teaspoon salt | {"quantity": 0.5, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "salt"}
+1 egg | {"quantity": 1.0, "base_ingredient": "egg"}
+cooking spray | {"base_ingredient": "cooking spray"}
+1 cup white sugar | {"quantity": 1.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "white sugar"}
+1 cup packed brown sugar | {"quantity": 1.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "packed brown sugar"}
+2 eggs | {"quantity": 2.0, "base_ingredient": "eggs"}
+2 teaspoons vanilla extract | {"quantity": 2.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "vanilla extract"}
+1 teaspoon baking soda | {"quantity": 1.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "baking soda"}
+2 teaspoons hot water | {"quantity": 2.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "hot water"}
+1/2 teaspoon salt | {"quantity": 0.5, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "salt"}
+3 cups all-purpose flour | {"quantity": 3.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "all-purpose flour"}
+2 cups semisweet chocolate chips | {"quantity": 2.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "semisweet chocolate chips"}
+1 cup chopped walnuts | {"quantity": 1.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "chopped walnuts"}
+1 1/2 cups all-purpose flour | {"quantity": 1.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "all-purpose flour"}
+3 1/2 teaspoons baking powder | {"quantity": 3.5, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "baking powder"}
+1 teaspoon salt | {"quantity": 1.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "salt"}
+1 tablespoon white sugar | {"quantity": 1.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "white sugar"}
+1 1/4 cups milk | {"quantity": 1.25, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "milk"}
+1 egg | {"quantity": 1.0, "base_ingredient": "egg"}
+2 cups all-purpose flour | {"quantity": 2.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "all-purpose flour"}
+1 teaspoon baking soda | {"quantity": 1.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "baking soda"}
+1/4 teaspoon salt | {"quantity": 0.25, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "salt"}
+1/2 cup butter | {"quantity": 0.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "butter"}
+3/4 cup brown sugar | {"quantity": 0.75, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "brown sugar"}
+2 1/3 cups mashed overripe bananas | {"quantity": 2.3333333333333335, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "mashed overripe bananas"}
+3 1/2 cups peeled and diced potatoes | {"quantity": 3.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "peeled and diced potatoes"}
+1/3 cup diced celery | {"quantity": 0.3333333333333333, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "diced celery"}
+1/3 cup finely chopped onion | {"quantity": 0.3333333333333333, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "finely chopped onion"}
+3/4 cup diced cooked ham | {"quantity": 0.75, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "diced cooked ham"}
+3 1/4 cups water | {"quantity": 3.25, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "water"}
+2 tablespoons chicken bouillon granules | {"quantity": 2.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "chicken bouillon granules"}
+5 tablespoons butter | {"quantity": 5.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "butter"}
+5 tablespoons all-purpose flour | {"quantity": 5.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "all-purpose flour"}
+2 cups milk | {"quantity": 2.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "milk"}
+1 1/2 cups all-purpose flour | {"quantity": 1.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "all-purpose flour"}
+1 teaspoon baking soda | {"quantity": 1.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "baking soda"}
+1 teaspoon baking powder | {"quantity": 1.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "baking powder"}
+1/2 teaspoon salt | {"quantity": 0.5, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "salt"}
+3/4 cup white sugar | {"quantity": 0.75, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "white sugar"}
+1/3 cup packed brown sugar | {"quantity": 0.3333333333333333, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "packed brown sugar"}
+2 tablespoons all-purpose flour | {"quantity": 2.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "all-purpose flour"}
+1/8 teaspoon ground cinnamon | {"quantity": 0.125, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "ground cinnamon"}
+1 tablespoon butter | {"quantity": 1.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "butter"}
+1/2 cup unsalted butter | {"quantity": 0.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "unsalted butter"}
+3 tablespoons all-purpose flour | {"quantity": 3.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "all-purpose flour"}
+1/4 cup water | {"quantity": 0.25, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "water"}
+1/2 cup white sugar | {"quantity": 0.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "white sugar"}
+1/2 cup packed brown sugar | {"quantity": 0.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "packed brown sugar"}
+1 1/2 cups all-purpose flour | {"quantity": 1.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "all-purpose flour"}
+3/4 cup white sugar | {"quantity": 0.75, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "white sugar"}
+1/2 teaspoon salt | {"quantity": 0.5, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "salt"}
+2 teaspoons baking powder | {"quantity": 2.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "baking powder"}
+1/3 cup vegetable oil | {"quantity": 0.3333333333333333, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "vegetable oil"}
+1 egg | {"quantity": 1.0, "base_ingredient": "egg"}
+1/3 cup milk | {"quantity": 0.3333333333333333, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "milk"}
+1 cup fresh blueberries | {"quantity": 1.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "fresh blueberries"}
+1/2 cup white sugar | {"quantity": 0.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "white sugar"}
+1/3 cup all-purpose flour | {"quantity": 0.3333333333333333, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "all-purpose flour"}
+1 1/2 teaspoons ground cinnamon | {"quantity": 1.5, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "ground cinnamon"}
+1 cup sliced carrots | {"quantity": 1.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "sliced carrots"}
+1 cup frozen green peas | {"quantity": 1.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "frozen green peas"}
+1/2 cup sliced celery | {"quantity": 0.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "sliced celery"}
+1/3 cup butter | {"quantity": 0.3333333333333333, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "butter"}
+1/3 cup chopped onion | {"quantity": 0.3333333333333333, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "chopped onion"}
+1/3 cup all-purpose flour | {"quantity": 0.3333333333333333, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "all-purpose flour"}
+1/2 teaspoon salt | {"quantity": 0.5, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "salt"}
+1/4 teaspoon black pepper | {"quantity": 0.25, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "black pepper"}
+1/4 teaspoon celery seed | {"quantity": 0.25, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "celery seed"}
+1 3/4 cups chicken broth | {"quantity": 1.75, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "chicken broth"}
+2/3 cup milk | {"quantity": 0.6666666666666666, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "milk"}
+1/2 cup butter | {"quantity": 0.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "butter"}
+1 cup white sugar | {"quantity": 1.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "white sugar"}
+2 eggs | {"quantity": 2.0, "base_ingredient": "eggs"}
+1 teaspoon vanilla extract | {"quantity": 1.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "vanilla extract"}
+1/3 cup unsweetened cocoa powder | {"quantity": 0.3333333333333333, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "unsweetened cocoa powder"}
+1/2 cup all-purpose flour | {"quantity": 0.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "all-purpose flour"}
+1/4 teaspoon salt | {"quantity": 0.25, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "salt"}
+1/4 teaspoon baking powder | {"quantity": 0.25, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "baking powder"}
+3 tablespoons unsweetened cocoa powder | {"quantity": 3.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "unsweetened cocoa powder"}
+1 tablespoon honey | {"quantity": 1.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "honey"}
+1 teaspoon vanilla extract | {"quantity": 1.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "vanilla extract"}
+2 cups all-purpose flour | {"quantity": 2.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "all-purpose flour"}
+1/2 teaspoon baking soda | {"quantity": 0.5, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "baking soda"}
+1/2 teaspoon salt | {"quantity": 0.5, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "salt"}
+1 cup packed brown sugar | {"quantity": 1.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "packed brown sugar"}
+1/2 cup white sugar | {"quantity": 0.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "white sugar"}
+1 tablespoon vanilla extract | {"quantity": 1.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "vanilla extract"}
+1 egg | {"quantity": 1.0, "base_ingredient": "egg"}
+1 egg yolk | {"quantity": 1.0, "base_ingredient": "egg yolk"}
+2 cups semisweet chocolate chips | {"quantity": 2.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "semisweet chocolate chips"}
+4 1/2 cups all-purpose flour | {"quantity": 4.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "all-purpose flour"}
+2 teaspoons baking soda | {"quantity": 2.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "baking soda"}
+1 1/2 cups packed brown sugar | {"quantity": 1.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "packed brown sugar"}
+1/2 cup white sugar | {"quantity": 0.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "white sugar"}
+2 (3.4 ounce) packages instant vanilla pudding mix | {"quantity": 2.0, "unit": {"type": "non_standard", "size": {"quantity": 3.4, "unit": {"type": "standard", "name": "ounce"}}, "name": "package"}, "base_ingredient": "instant vanilla pudding mix"}
+4 eggs | {"quantity": 4.0, "base_ingredient": "eggs"}
+2 teaspoons vanilla extract | {"quantity": 2.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "vanilla extract"}
+4 cups semisweet chocolate chips | {"quantity": 4.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "semisweet chocolate chips"}
+2 cups white sugar | {"quantity": 2.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "white sugar"}
+4 eggs | {"quantity": 4.0, "base_ingredient": "eggs"}
+1 teaspoon vanilla extract | {"quantity": 1.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "vanilla extract"}
+5 cups all-purpose flour | {"quantity": 5.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "all-purpose flour"}
+2 teaspoons baking powder | {"quantity": 2.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "baking powder"}
+1 teaspoon salt | {"quantity": 1.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "salt"}
+1/2 cup Parmesan cheese | {"quantity": 0.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "Parmesan cheese"}
+3 tablespoons mayonnaise | {"quantity": 3.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "mayonnaise"}
+2 tablespoons fresh lemon juice | {"quantity": 2.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "fresh lemon juice"}
+1/4 teaspoon dried basil | {"quantity": 0.25, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "dried basil"}
+1/4 teaspoon ground black pepper | {"quantity": 0.25, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "ground black pepper"}
+1/8 teaspoon onion powder | {"quantity": 0.125, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "onion powder"}
+1/8 teaspoon celery salt | {"quantity": 0.125, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "celery salt"}
+2 pounds tilapia fillets | {"quantity": 2.0, "unit": {"type": "standard", "name": "pound"}, "base_ingredient": "tilapia fillets"}
+2 (10.75 ounce) cans condensed cream of mushroom soup | {"quantity": 2.0, "unit": {"type": "non_standard", "size": {"quantity": 10.75, "unit": {"type": "standard", "name": "ounce"}}, "name": "can"}, "base_ingredient": "condensed cream of mushroom soup"}
+1 (1 ounce) package dry onion soup mix | {"quantity": 1.0, "unit": {"type": "non_standard", "size": {"quantity": 1.0, "unit": {"type": "standard", "name": "ounce"}}, "name": "package"}, "base_ingredient": "dry onion soup mix"}
+1 1/4 cups water | {"quantity": 1.25, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "water"}
+5 1/2 pounds pot roast | {"quantity": 5.5, "unit": {"type": "standard", "name": "pound"}, "base_ingredient": "pot roast"}
+2 tablespoons butter | {"quantity": 2.0, "unit": {"type": "standard", "name": "tablespoon"}, "base_ingredient": "butter"}
+2 (10.75 ounce) cans condensed cream of chicken soup | {"quantity": 2.0, "unit": {"type": "non_standard", "size": {"quantity": 10.75, "unit": {"type": "standard", "name": "ounce"}}, "name": "can"}, "base_ingredient": "condensed cream of chicken soup"}
+1 (15 ounce) can pumpkin puree | {"quantity": 1.0, "unit": {"type": "non_standard", "size": {"quantity": 15.0, "unit": {"type": "standard", "name": "ounce"}}, "name": "can"}, "base_ingredient": "pumpkin puree"}
+4 eggs | {"quantity": 4.0, "base_ingredient": "eggs"}
+1 cup vegetable oil | {"quantity": 1.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "vegetable oil"}
+2/3 cup water | {"quantity": 0.6666666666666666, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "water"}
+3 cups white sugar | {"quantity": 3.0, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "white sugar"}
+3 1/2 cups all-purpose flour | {"quantity": 3.5, "unit": {"type": "standard", "name": "cup"}, "base_ingredient": "all-purpose flour"}
+2 teaspoons baking soda | {"quantity": 2.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "baking soda"}
+1 1/2 teaspoons salt | {"quantity": 1.5, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "salt"}
+1 teaspoon ground cinnamon | {"quantity": 1.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "ground cinnamon"}
+1 teaspoon ground nutmeg | {"quantity": 1.0, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "ground nutmeg"}
+1/2 teaspoon ground cloves | {"quantity": 0.5, "unit": {"type": "standard", "name": "teaspoon"}, "base_ingredient": "ground cloves"}

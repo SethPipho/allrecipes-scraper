@@ -2,6 +2,9 @@
 
 from lark import Lark, Transformer
 import pprint
+import os
+import sys
+script_path =  os.path.dirname(__file__)
 
 def list_from_file(path):
     lst = []
@@ -19,7 +22,7 @@ def list_to_grammar(lst):
 
 
 
-standard_units = list_from_file('data/standard-units.txt')
+standard_units = list_from_file(os.path.join(script_path, 'data/standard-units.txt'))
 
 _GRAMMAR_ =  '''
 ?start: ingredient
@@ -28,28 +31,29 @@ ingredient: quantity? unit? base_ingredient
 
 quantity.2: mixed_fraction | fraction | number
 
-mixed_fraction: number fraction
+mixed_fraction: number " " fraction
 fraction: number "/" number
 
 unit: standard_unit | non_standard_unit
 
-standard_unit.2: standard_unit_plural | STANDARD_UNIT_NAME
-?standard_unit_plural.2: STANDARD_UNIT_NAME ("es" | "s")
-STANDARD_UNIT_NAME: {standard_units}  
+standard_unit.2: standard_unit_plural | STANDARD_UNIT_NAME 
+?standard_unit_plural.2:  STANDARD_UNIT_NAME ("es" | "s")
+STANDARD_UNIT_NAME: " " ({standard_units})
 
-non_standard_unit.2: unit_size?  (non_standard_unit_plural | NON_STANDARD_UNIT_NAME)
-?non_standard_unit_plural.2: NON_STANDARD_UNIT_NAME ("es" | "s")
-NON_STANDARD_UNIT_NAME: "can" | "jar"
-unit_size: "(" quantity standard_unit ")"
+non_standard_unit.2: unit_size?  (non_standard_unit_plural | " " NON_STANDARD_UNIT_NAME)
+?non_standard_unit_plural.2: " " NON_STANDARD_UNIT_NAME ("es" | "s")
+NON_STANDARD_UNIT_NAME: "can" | "jar" | "package"
+unit_size: " (" quantity standard_unit ")"
 
 base_ingredient.0: WORD+
 
 number: NUMBER
-WORD: /[A-Za-z]+/
+WORD: /[A-Z a-z \-]+/
 
 %import common.NUMBER 
 %import common.WS
-%ignore WS
+
+
 
 '''.format(standard_units=list_to_grammar(standard_units))
 
@@ -71,9 +75,18 @@ class IngredientTransformer(Transformer):
     
     
     def standard_unit(self,children):
-        return {"type":"standard", "name": children[0].value}
+        return {"type":"standard", "name": children[0].value.strip()}
     
+    def non_standard_unit(self, children):
+        if len(children) == 2:
+            return {"type": "non_standard", "size": children[0], "name": children[1].value}
+        if len(children) == 1:
+            return {"type": "non_standard", "name": children[0].value}
 
+    def unit_size(self, children):
+        return {"quantity": children[0].children[0], "unit": children[1]}
+
+    
     def ingredient(self, children):
         result = {}
         for child in children:
@@ -82,7 +95,8 @@ class IngredientTransformer(Transformer):
             if child.data == "unit":
                 result['unit'] = child.children[0]
             if child.data == "base_ingredient":
-                result["base_ingredient"] = " ".join([x.value for x in child.children])
+                result["base_ingredient"] = " ".join([x.value.strip() for x in child.children])
+            
         
         return result
     
@@ -95,7 +109,7 @@ def parse_ingredient(string):
 
 
 if __name__ == "__main__":
-    tree = parser.parse("1 1/2 cup whole grain flour")
+    tree = parser.parse("10 (6 oz) cans salt")
     print(tree)
     print(tree.pretty())
     tree = IngredientTransformer().transform(tree)
