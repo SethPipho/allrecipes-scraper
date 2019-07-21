@@ -4,24 +4,24 @@ import re
 
 Recipe = namedtuple("Recipe", ['title','url', 'rating', 'numreviews', 'ingredients', 'instructions'])
 
-def parse_recipe(page:str):
-    ''' parses recipe from allrecipes e.g. https://www.allrecipes.com/recipe/13477/double-layer-pumpkin-cheesecake/ '''
+def scrape_recipe(page:str):
+    ''' scrapes recipe from allrecipes e.g. https://www.allrecipes.com/recipe/13477/double-layer-pumpkin-cheesecake/ '''
     
     try:
-      return parse_format1(page)
+      return scrape_format1(page)
     except:
       pass
     
     try:
-      return parse_format2(page)
+      return scrape_format2(page)
     except:
       return None
    
 
   
 
-def parse_format1(page:str):
-  ''' parses recipe in format 1 (see testfiles/format1_1.html) for example '''
+def scrape_format1(page:str):
+  ''' scrapes recipe in format 1 (see testfiles/format1_1.html) for example '''
   root = html.fromstring(page)
 
   title = root.xpath('.//h1[@id="recipe-main-content"]')[0].text
@@ -36,8 +36,8 @@ def parse_format1(page:str):
 
   return Recipe(title=title, url=url, rating=rating, numreviews=numreviews, ingredients=ingredients, instructions=instructions)
 
-def parse_format2(page:str):
-  ''' parses recipe in format 1 (see testfiles/format2_1.html) for example '''
+def scrape_format2(page:str):
+  ''' scrapes recipe in format 1 (see testfiles/format2_1.html) for example '''
 
   root = html.fromstring(page)
 

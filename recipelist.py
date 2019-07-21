@@ -3,8 +3,8 @@ from collections import namedtuple
 
 RecipeLink = namedtuple('RecipeLink', ['title', 'link', 'imgsrc'])
 
-def parse_recipelisting(page:str):
-    ''' parses allrecipes recipe list e.g https://www.allrecipes.com/recipes/?page=5 '''
+def scrape_recipelisting(page:str):
+    ''' scrapes allrecipes recipe list e.g https://www.allrecipes.com/recipes/?page=5 '''
 
 
     root = html.fromstring(page)

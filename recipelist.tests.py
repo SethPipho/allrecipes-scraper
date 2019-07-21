@@ -1,12 +1,12 @@
 import unittest
 import recipelist
 
-class TestRecipeListParse(unittest.TestCase):
+class TestRecipeListscrape(unittest.TestCase):
 
-    def test_parse_recipelist(self):
+    def test_scrape_recipelist(self):
 
         testfile = open("testfiles/recipelist.html", encoding="utf-8").read()
-        recipe_list = recipelist.parse_recipelisting(testfile)
+        recipe_list = recipelist.scrape_recipelisting(testfile)
         
         self.assertEqual(len(recipe_list), 20)
      

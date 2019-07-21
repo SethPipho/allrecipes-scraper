@@ -2,14 +2,14 @@ import unittest
 import recipe
 import requests
 
-class TestRecipeParse(unittest.TestCase):
+class TestRecipescrape(unittest.TestCase):
 
-    def test_parse_recipe_format_1(self):
+    def test_scrape_recipe_format_1(self):
 
         self.maxDiff = None
 
         testfile = open("testfiles/format1_1.html", encoding="utf-8")
-        parsed_recipe = recipe.parse_recipe(testfile.read())
+        scraped_recipe = recipe.scrape_recipe(testfile.read())
         testfile.close()
 
         recipe1 = recipe.Recipe(
@@ -37,15 +37,15 @@ class TestRecipeParse(unittest.TestCase):
         )
 
 
-        self.assertEqual(parsed_recipe.title, recipe1.title)
-        self.assertEqual(parsed_recipe.url, recipe1.url)
-        self.assertEqual(parsed_recipe.ingredients, recipe1.ingredients)
-        self.assertEqual(parsed_recipe.instructions, recipe1.instructions)
-        self.assertEqual(parsed_recipe.rating, recipe1.rating)
-        self.assertEqual(parsed_recipe.numreviews, recipe1.numreviews)
+        self.assertEqual(scraped_recipe.title, recipe1.title)
+        self.assertEqual(scraped_recipe.url, recipe1.url)
+        self.assertEqual(scraped_recipe.ingredients, recipe1.ingredients)
+        self.assertEqual(scraped_recipe.instructions, recipe1.instructions)
+        self.assertEqual(scraped_recipe.rating, recipe1.rating)
+        self.assertEqual(scraped_recipe.numreviews, recipe1.numreviews)
 
         testfile = open("testfiles/format1_2.html", encoding="utf-8")
-        parsed_recipe = recipe.parse_recipe(testfile.read())
+        scraped_recipe = recipe.scrape_recipe(testfile.read())
         testfile.close()
 
         recipe1 = recipe.Recipe(
@@ -73,19 +73,19 @@ class TestRecipeParse(unittest.TestCase):
                 'Bake the loaves in the preheated oven until a toothpick inserted into the center comes out clean, about 1 hour for loaves or 25 minutes for muffins. Cool in the pans for 10 minutes before removing to cool completely on a wire rack.')
         )
 
-        self.assertEqual(parsed_recipe.title, recipe1.title)
-        self.assertEqual(parsed_recipe.url, recipe1.url)
-        self.assertEqual(parsed_recipe.ingredients, recipe1.ingredients)
-        self.assertEqual(parsed_recipe.instructions, recipe1.instructions)
-        self.assertEqual(parsed_recipe.rating, recipe1.rating)
-        self.assertEqual(parsed_recipe.numreviews, recipe1.numreviews)
+        self.assertEqual(scraped_recipe.title, recipe1.title)
+        self.assertEqual(scraped_recipe.url, recipe1.url)
+        self.assertEqual(scraped_recipe.ingredients, recipe1.ingredients)
+        self.assertEqual(scraped_recipe.instructions, recipe1.instructions)
+        self.assertEqual(scraped_recipe.rating, recipe1.rating)
+        self.assertEqual(scraped_recipe.numreviews, recipe1.numreviews)
 
-    def test_parse_recipe_format2(self):
+    def test_scrape_recipe_format2(self):
 
         self.maxDiff = None
 
         testfile = open("testfiles/format2_1.html", encoding="utf-8")
-        parsed_recipe = recipe.parse_recipe(testfile.read())
+        scraped_recipe = recipe.scrape_recipe(testfile.read())
         testfile.close()
 
         recipe1 = recipe.Recipe(
@@ -110,23 +110,23 @@ class TestRecipeParse(unittest.TestCase):
                 'In a small bowl, stir cornstarch into water until dissolved. Stir into soup; cook, stirring frequently, until thick.'
             ))
 
-        self.assertEqual(parsed_recipe.title, recipe1.title)
-        self.assertEqual(parsed_recipe.url, recipe1.url)
-        self.assertEqual(parsed_recipe.ingredients, recipe1.ingredients)
-        self.assertEqual(parsed_recipe.instructions, recipe1.instructions)
-        self.assertEqual(parsed_recipe.rating, recipe1.rating)
-        self.assertEqual(parsed_recipe.numreviews, recipe1.numreviews) 
+        self.assertEqual(scraped_recipe.title, recipe1.title)
+        self.assertEqual(scraped_recipe.url, recipe1.url)
+        self.assertEqual(scraped_recipe.ingredients, recipe1.ingredients)
+        self.assertEqual(scraped_recipe.instructions, recipe1.instructions)
+        self.assertEqual(scraped_recipe.rating, recipe1.rating)
+        self.assertEqual(scraped_recipe.numreviews, recipe1.numreviews) 
 
      #recipe without ratings or reviews broke format 2
-    def test_parse_recipe_format_2_unrated(self):
+    def test_scrape_recipe_format_2_unrated(self):
 
         self.maxDiff = None
 
         testfile = open("testfiles/format2_unrated.html", encoding="utf-8")
-        parsed_recipe = recipe.parse_recipe(testfile.read())
+        scraped_recipe = recipe.scrape_recipe(testfile.read())
         testfile.close()
         
-        self.assertEqual(parsed_recipe.rating, "0")
+        self.assertEqual(scraped_recipe.rating, "0")
     
     #test list of urls that failed during initial bulk scraping
     """  def test_errors(self):
@@ -138,9 +138,9 @@ class TestRecipeParse(unittest.TestCase):
                 if (r.status_code != 200):
                     print('fetch error:', url)
                     continue
-                parsed = recipe.parse_recipe(r.text)
-                if parsed == None:
-                    print('parse error:', url) """
+                scraped = recipe.scrape_recipe(r.text)
+                if scraped == None:
+                    print('scrape error:', url) """
               
 
                 
